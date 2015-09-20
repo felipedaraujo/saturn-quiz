@@ -48,9 +48,9 @@
     $scope.createShareLinks = function(percentage) {
       var url = 'http://www.felipedearaujo.com/saturn-quiz';
 
-      var emailLink = '<a class="btn email" href="mailto:?subject=Try to beat my saturn quiz score!&amp;body=I scored a '+ percentage +'% on this quiz about Saturn. Try to beat my score at '+ url +'">Email a friend</a>';
+      var emailLink = '<a class="btn email" href="mailto:?subject=Try to beat my saturn quiz score!&body=I scored a '+ percentage +'% on this quiz about Saturn. Try to beat my score at '+ url +'">Email a friend</a>';
 
-      var twitterlLink = '<a class="btn twitter" target="_blank" href="http://twitter.com/share?text=I scored a '+percentage+'% on this quiz about Saturn. Try to beat my score at&amp;hashtags=SaturnQuiz&url='+url+'">Tweet your score</a>';
+      var twitterlLink = '<a class="btn twitter" target="_blank" href="http://twitter.com/share?text=I scored a '+ percentage +'%25 on this quiz about Saturn. Try to beat my score at&url='+url+'&hashtags=SaturnQuiz">Tweet your score</a>';
 
       var newMarkup = emailLink + twitterlLink;
 
